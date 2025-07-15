@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page personnelle de Ricacho Eric Charles</title>
+  <style>
+    @font-face {
+      font-family: 'Latin Modern Roman';
+      src: url('https://cdn.jsdelivr.net/npm/@fontsource/latin-modern-roman/files/latin-modern-roman-latin-400-normal.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Latin Modern Roman', serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      list-style: disc inside;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    a {
+      color: #006699;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: inherit;
+    }
+
+    form button {
+      background: #2c3e50;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #1a252f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ricacho Eric Charles</h1>
+    <p>Enseignant-chercheur en linguistique · Spécialiste de la sémantique</p>
+  </header>
+
+  <main>
+    <section id="biographie">
+      <h2>Biographie</h2>
+      <p>Je suis enseignant-chercheur en linguistique, spécialisé en sémantique, avec un intérêt particulier pour les connecteurs logiques comme « donc ».</p>
+    </section>
+
+    <section id="parcours">
+      <h2>Parcours académique</h2>
+      <ul>
+        <li>2021– : Maître de conférences à l’Université de [Nom]</li>
+        <li>2016–2021 : Doctorat en linguistique, Université [Nom]</li>
+        <li>2013–2016 : Master de linguistique théorique</li>
+      </ul>
+    </section>
+
+    <section id="recherche">
+      <h2>Domaines de recherche</h2>
+      <ul>
+        <li>Sémantique des connecteurs</li>
+        <li>Analyse du discours</li>
+        <li>Grammaire du français</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li>Ricacho, E. C. (2024). <em>Les emplois de "donc" dans le discours spontané</em>, Revue de sémantique, 12(2), 45–67.</li>
+        <li>Ricacho, E. C. (2023). <em>Donc et la logique inférentielle</em>, Cahiers de linguistique, 89, 101–122.</li>
+      </ul>
+    </section>
+
+    <section id="enseignements">
+      <h2>Cours enseignés</h2>
+      <ul>
+        <li>Introduction à la linguistique</li>
+        <li>Sémantique formelle (M1)</li>
+        <li>LaTeX pour linguistes (L3-M2)</li>
+      </ul>
+    </section>
+
+    <section id="projets">
+      <h2>Projets en cours</h2>
+      <ul>
+        <li>Thèse sur les emplois de « donc » dans les corpus oraux</li>
+        <li>Élaboration d’un outil d’annotation pour les connecteurs</li>
+      </ul>
+    </section>
+
+    <section id="conferences">
+      <h2>Conférences</h2>
+      <ul>
+        <li>Colloque de sémantique discursive, Lyon, 2024</li>
+        <li>Séminaire GRAL, Paris 7, 2023</li>
+      </ul>
+    </section>
+
+    <section id="cv">
+      <h2>CV</h2>
+      <p><a href="cv.pdf" target="_blank">Télécharger mon CV (PDF)</a></p>
+    </section>
+
+    <section id="liens">
+      <h2>Liens utiles</h2>
+      <ul>
+        <li><a href="https://orcid.org/" target="_blank">Mon profil ORCID</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.academia.edu/" target="_blank">Academia.edu</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="mailto:leptitnettoyeur@hotmail.com" method="post" enctype="text/plain">
+        <label>Nom :</label>
+        <input type="text" name="nom" required />
+
+        <label>Adresse e-mail :</label>
+        <input type="email" name="email" required />
+
+        <label>Message :</label>
+        <textarea name="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Ricacho Eric Charles · Site personnel
+  </footer>
+</body>
+</html>
